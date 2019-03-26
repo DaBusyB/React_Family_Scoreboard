@@ -10,8 +10,11 @@ const App = () => {
     <div className="scoreboard">
       <Header title="Scoreboard" totalPlayers={1} />
 
-      {/* Players List*/}
       <Player name={"Brandi"} score={35} />
+      <Player name={"Sonnet"} score={90} />
+      <Player name={"Cadence"} score={90} />
+      <Player name={"Jeffery"} score={90} />
+      <Player name={"Riley"} score={90} />
     </div>
   );
 };
