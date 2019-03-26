@@ -1,0 +1,17 @@
+import React from "react";
+
+import "./styles.css";
+
+import Counter from "./Counter";
+
+const Player = () => {
+  return (
+    <div className="player">
+      <span className="player-name">Mom</span>
+
+      <Counter />
+    </div>
+  );
+};
+
+export default Player;
