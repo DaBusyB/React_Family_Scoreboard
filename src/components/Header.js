@@ -1,10 +1,12 @@
 import React from "react";
 
-const Header = () => {
+import "../styles.css";
+
+const Header = props => {
   return (
     <header>
-      <h1>Scoreboard</h1>
-      <span className="stats">Players: 1</span>
+      <h1>{props.title}</h1>
+      <span className="stats">Players: {props.score}</span>
     </header>
   );
 };

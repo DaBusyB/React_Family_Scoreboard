@@ -11,7 +11,7 @@ const App = () => {
       <Header title="Scoreboard" totalPlayers={1} />
 
       {/* Players List*/}
-      <Player name={"React F"} score={35} />
+      <Player name={"Brandi"} score={35} />
     </div>
   );
 };

@@ -1,15 +1,15 @@
 import React from "react";
 
-import "./styles.css";
+import "../styles.css";
 
 import Counter from "./Counter";
 
-const Player = () => {
+const Player = props => {
   return (
     <div className="player">
-      <span className="player-name">Mom</span>
+      <span className="player-name">{props.name}</span>
 
-      <Counter />
+      <Counter score={props.score} />
     </div>
   );
 };
